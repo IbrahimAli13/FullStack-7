@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .section h2 {
+    font-size: 18px;
+  }
+.section ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+.section ul li {
+    margin-bottom: 10px;
+  }
+  .profile-image-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .profile-image {
+    max-width: 12%;
+    max-height: 12%;
+  }
+  .Button-image-container {
+    color: rgba(252, 5, 5, 0.562);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Button-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .form-group {
+      margin-bottom: 10px;
+    }
+  a:visited {
+      color: yellow;
+    }
+  button[type="submit"] {
+      background-color: teal;
+    }
